@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.example.springboot.AvailControllerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.501 s <<< FAILURE! - in com.example.springboot.AvailControllerTest
+getHello  Time elapsed: 0.166 s  <<< FAILURE!
+java.lang.AssertionError: 
+Response content
+Expected: "Yes I am availabl"
+     but: was "Yes I am available"
+	at com.example.springboot.AvailControllerTest.getHello(AvailControllerTest.java:27)
+
